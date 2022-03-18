@@ -1,0 +1,60 @@
+@use "../mixins";
+
+.p-index {
+    width: 100%;
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+
+    &_hero {
+        font-family: var(--monospace);
+        padding: 1rem;
+        color: var(--color-text);
+        max-width: 30em;
+        margin: 0 auto;
+    }
+
+    &_latest {
+        padding: 1rem;
+    }
+}
+
+/* ********* */
+/* Skull */
+/* ********* */
+
+#skull #head {
+    transform: translateY(0);
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.37, 1, 0.5, 0.99);
+  }
+  #skull #jaw {
+    transform: translateY(0);
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.37, 1, 0.5, 0.99);
+  }
+  #skull #tongue {
+    transform: translateY(0);
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.37, 1, 0.5, 0.99);
+  }
+  #skull #shadow {
+    transform: scale(1);
+    transform-origin: 50%;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.37, 1, 0.5, 0.99);
+  }
+  #skull:hover #head {
+    transform: translateY(-20px);
+  }
+  #skull:hover #jaw {
+    transform: translateY(20px);
+  }
+  #skull:hover #tongue {
+    transform: translateY(70px);
+  }
+  #skull:hover #shadow {
+    transform: scale(1.2);
+  }
+  #skull:active #tongue {
+    transform: translateY(-20px);
+  }
