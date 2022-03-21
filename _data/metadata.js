@@ -18,7 +18,7 @@ module.exports = {
         },
         source: {
             label: 'github',
-            link: 'https://github.com/simoneduca/new-11ty-site'
+            link: 'https://github.com/simoneduca/personal-site'
         },
         author: {
             url,
