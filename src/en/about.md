@@ -9,7 +9,6 @@ eleventyNavigation:
 ## Career summary
 
 - **April 2018 - present**
-Senior Frontend Developer at DWP Digital.
 Senior Frontend Developer at DWP Digital. Currently I am the lead developer of the DWP Design System team. Previously, I worked on several public-facing services, including Universal Credit and Repay My Debt, with increasing responsibilities.
 Tech: HTML, CSS, Nunjucks, Node, Express, Gitlab, Github.
 
