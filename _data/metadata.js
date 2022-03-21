@@ -5,7 +5,7 @@ module.exports = {
     en: {
         url,
         title,
-        description: "TODO",
+        description: "Web developer",
         feed: {
             subtitle: "TODO",
             filename: "feed.xml",
@@ -23,7 +23,6 @@ module.exports = {
         author: {
             url,
             name: "Simone Duca",
-            email: "example@mail.com",
         },
         posts: {
             title: `Posts | ${title}`,
