@@ -45,7 +45,7 @@
 
     &:hover {
         text-decoration-color: var(--color-extra);
-        background-color: var(--color-gray-200);
+        background-color: var(--color-accent);
     }
 
     &:visited {
@@ -54,7 +54,7 @@
 
         &:hover {
             text-decoration-color: var(--color-extra);
-            background-color: var(--color-gray-200);
+            background-color: var(--color-accent);
         }
     }
 }
